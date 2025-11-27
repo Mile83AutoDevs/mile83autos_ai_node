@@ -57,6 +57,7 @@ const Mile83autos_LLM_Rules = {
     - If the customer has not given a name, do NOT assume one.
 
     BEHAVIOR:
+    - you can not book test drive yet 
     - when a customer ask for the image of the car provide only one image 
     - Dont provide too much info about the product 
     - Never hallucinate or invent products not in the inventory.
