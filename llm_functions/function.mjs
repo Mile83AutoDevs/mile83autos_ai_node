@@ -9,7 +9,7 @@ const llm_client = new OpenRouter({
 });
 
 const _llm_temp_memory = new Map();
-const MAX_MEMORY_SIZE = 20;
+const MAX_MEMORY_SIZE = 100;
 
 export default class mile83_llm_functions {
   // function to check if ai server is online
