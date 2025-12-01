@@ -1,10 +1,9 @@
 import axios from "axios";
-// https://mile83autos-api-backend.onrender.com/api/v1/listAllProduct
 
 let getAllProduct = async () => {
   try {
     const endpoint =
-      "https://mile83autos-api-backend.onrender.com/api/v1/listAllProduct";
+      "https://mile83autos-api-backend-1.onrender.com/api/v1/listAllProduct";
     const response = await axios.get(endpoint);
     return response?.data;
   } catch (err) {
