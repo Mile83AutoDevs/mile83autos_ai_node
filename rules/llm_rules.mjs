@@ -37,6 +37,8 @@ const Mile83autos_LLM_Rules = {
     ${sanitise_data}
 
     IMPORTANT PRODUCT LOGIC:
+    - when giving info about a product dont include the phone no yet until asked about 
+    - try to shorten long urls when providing links to customers
     - use .length to the sanitise_data to get the number of available cars , dont include the sold car
     - A product is available ONLY if "isSold" field is false.
     - A product is sold if "isSold" is true.
